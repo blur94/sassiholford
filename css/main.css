@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+/* Nav Begins */
+
+.nav{
+    width: 95%;
+    /* display: grid;
+    grid-template-columns: 400px, 500px, 200px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.nav a{
+    font-size: 12px;
+    font-weight: 500;
+}
+.nav .nav1{
+    width: 20%;
+}
+.nav .nav1 a img{
+    width: 220px;
+    padding-top: 10px;
+}
+.nav .nav3 a img{
+    width: 17px;
+    /* padding-top: 10px; */
+}
+.nav .nav2{
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    margin: auto;
+}
+.nav .nav3{
+    width:20%;
+    display: flex;
+    justify-content: end;
+    margin: auto;
+}
+.nav .nav3 a{
+    margin: 0 10px;
+}
+
+/* Nav Ends */
+
+/* Section1 - Home */
+
+.iSection1{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.iSection1 .part1{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 70px;
+    background-image: url(../img/index/image13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.iSection1 .part1 .part12, .iSection1 .part2 .part22{
+    padding-top: 50vh;
+}
+.iSection1 .part1 .part12 h2, .iSection1 .part2 .part22 h2 {
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.iSection1 .part1 .part12 p, .iSection1 .part2 .part22 p{
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.iSection1 .part1 .part12 button, .iSection1 .part2 .part22 button{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    font-size: x-small;
+    font-weight: 900;
+}
+.iSection1 .part2{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 70px;
+    background-image: url(../img/index/image14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.iSection1 .part1 .part11, .iSection1 .part2 .part21{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    padding-top: 75vh;
+    /* padding-left: 5rem; */
+    box-sizing: border-box;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto;
+}
+#bridalPart1:hover, #fashPart2:hover{
+    color: grey;
+}
+
+/* Section1 - Home */
+
+/* Section 2 - Home Begins */
+
+.section2{
+    width: 95%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin: 100px 20px;
+}
+.section2 img{
+    width: 400px;
+}
+.section21, .section22, .section23{
+    width: 100%;
+    margin: 15px;
+}
+
+/* Section 2 - Home Ends */
