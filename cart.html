@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Sassi Holford | Shopping Bag</title>
-        <link rel="shortcut icon" href="./img/index/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="./css/skippr.css" />
-        <link rel="stylesheet" href="./css/main.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-<body>
- 
-     <!-- Nav Begins -->
 
-     <div class="nav">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sassi Holford | Shopping Bag</title>
+    <link rel="shortcut icon" href="./img/index/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/skippr.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Nav Begins -->
+
+    <div class="nav">
         <div class="nav1">
             <a href="index.html"><img src="./img/index/image01.png" alt="" /></a>
         </div>
@@ -94,10 +96,145 @@
     </div>
 
     <!-- Nav Ends -->
-    
-     <!-- footer section begins -->
 
-     <div class="footer">
+    <!-- section2_cart begins -->
+
+    <div class="section2_cart">
+        <h2>SHOPPING BAG</h2>
+    </div>
+
+    <!-- section2_cart ends -->
+
+    <!-- section 3 - cart begins -->
+
+    <div class="section3_cart">
+        <div class="section3_cart1">
+            <div class="cart1_head">
+                <p>YOUR BAG</p>
+                <h3>YOU'VE GOT 2 ITEMS IN YOUR BAG</h3>
+            </div>
+            <div class="cart1_table">
+                <!-- <table>
+                    <thead>
+                        <tr>
+                            <th>ITEM</th>
+                            <th>DESCRIPTION</th>
+                            <th>QUANTITY</th>
+                            <th>PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="./img/cart/img13.jpg" alt=""></td>
+                            <td>ST TROPEZ DRESS</td>
+                        </tr>
+                    </tbody>
+                </table> -->
+                <div class="cart1_table_row">
+                    <h3>ITEM</h3>
+                    <h3>DESCRIPTION</h3>
+                    <h3>QUANTITY</h3>
+                    <h3>PRICE</h3>
+                </div>
+
+                <div class="cart1_table_row">
+                    <div class="cart1_table_col">
+                        <img src="./img/cart/img13.jpg" alt="">
+                    </div>
+                    <div class="cart1_table_col">
+                        <h3>ST TROPEZ DRESS</h3>
+                        <p>SIZE 36</p>
+                        <h6>[ REMOVE ]</h6>
+                    </div>
+                    <div class="cart1_table_col">
+                        <input type="number" name="quantity" id="quantity" value="1">
+                    </div>
+                    <div class="cart1_table_col">
+                        <h4>&pound;1,695.00</h4>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="cart1_table_row">
+                    <div class="cart1_table_col">
+                        <img src="./img/cart/img14.jpg" alt="">
+                    </div>
+                    <div class="cart1_table_col">
+                        <h3>ST TROPEZ DRESS</h3>
+                        <p>SIZE 36</p>
+                        <h6>[ REMOVE ]</h6>
+                    </div>
+                    <div class="cart1_table_col">
+                        <input type="number" name="quantity" id="quantity" value="1">
+                    </div>
+                    <div class="cart1_table_col">
+                        <h4>&pound;1,695.00</h4>
+                    </div>
+                </div>
+
+                <div class="cart1_coupon">
+                    <div class="cart_coupon">
+                        <input type="text" name="coupon" id="coupon" placeholder="DISCOUNT CODE">
+                        <button type="button">APPLY</button>
+                    </div>
+
+                    <div class="coupon_update">
+                        <button type="button">UPDATE CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section4_cart">
+                <h2>YOU MAY BE INTERESTED...</h2>
+                <img src="./img/cart/img15.jpg" alt="">
+                <h2>BROOKLYN FOIL CAMI</h2>
+                <h3>&pound;225.00 <span><button type="button">SELECT OPTIONS</button></span></h3>
+            </div>
+
+            <div class="section5_cart">
+                <div class="section5_subtotal">
+                    <h3>SUBTOTAL</h3>
+                    <h3>&pound;3,390.00</h3>
+                </div>
+
+                <hr>
+
+                <div class="section5_total">
+                    <h3>TOTAL</h3>
+                    <h2>&pound;3,395.00</h2>
+                </div>
+                <div class="section5_btn">
+                    <button type="button">CONTINUE SHOPPING</button>
+                    <button type="button">PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="section3_cart2">
+            <h4>CONTACT US</h4>
+            <p>If you have any queries or need further assistance, <a href="#">please send us an enquiry</a>.</p>
+
+            <h4>DELIVERY</h4>
+            <p>Shop confidently, we’ll make your returns easy. <a href="#">Read more about delivery and returns</a>.</p>
+
+            <h4>SECURE PAYMENTS</h4>
+            <p>We accept all major cards. Your security is our priority. We keep your payment details safe. <a href="#">Read our privacy policy</a>.</p>
+            <h4>[payzone]</h4>
+        </div>
+    </div>
+
+    <!-- section 3 - cart ends -->
+
+    <!-- section 4 - cart begins -->
+
+    
+
+    <!-- section 4 - cart ends -->
+
+    <!-- footer section begins -->
+
+    <div class="footer">
         <div class="footer1">
             <div class="footer_head">
                 &copy; 2022 SASSI HOLFORD
@@ -184,4 +321,5 @@
     <script src="./js/skippr.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>

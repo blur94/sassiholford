@@ -689,3 +689,205 @@ a {
 }
 
 /* section 3 - product ends */
+
+/* Cart Page begins */
+
+.section2_cart {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}
+
+.section3_cart{
+  width: 90%;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); */
+  grid-template-columns: auto auto;
+  gap: 100px;
+  margin: 0 auto;
+  margin-left: 10rem;
+  margin-right: 10rem;
+
+  @media (min-width: 500px) {
+    display: block;
+  }
+}
+.section3_cart1{
+  width: 700px;
+}
+.section3_cart2{
+  width: calc(100% - 150px);
+}
+.section3_cart1 .cart1_head p{
+  font-size: .8rem;
+  color: grey;
+  font-weight: 500;
+}
+.section3_cart1 .cart1_head h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.cart1_table_row{
+  display: grid;
+  grid-template-columns: 100px 300px 200px 0px;
+}
+.cart1_table_row:nth-child(1) {
+  color: grey;
+  font-size: .7rem;
+  margin-top: 4rem;
+}
+.cart1_table_row .cart1_table_col{
+  
+  margin-top: 1rem;
+  margin-bottom: .8rem;
+}
+.cart1_table_row .cart1_table_col h6{
+  padding-top: 3.3rem;
+}
+.cart1_table_row .cart1_table_col p {
+  font-size: .9rem;
+  color: gray;
+}
+.cart1_table_row .cart1_table_col h4{
+  color: lightgrey;
+  font-size: 1.4rem;
+}
+.cart1_table_row .cart1_table_col input{
+  width: 6rem;
+  padding: 0.5rem 0 0.5rem 0;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.cart1_table_row .cart1_table_col img{
+  width: 5rem;
+  height: 100%;
+  object-fit: contain;
+}
+.cart1_coupon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+
+}
+.cart1_coupon input{
+  width: 10rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: .7rem;
+  margin-right: 1.5rem;
+}
+.cart1_coupon .cart_coupon button{
+  padding: .5rem 1rem;
+  font-size: .7rem;
+  font-weight: 900;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+.cart1_coupon .cart_coupon button:hover{
+  background-color: inherit;
+  color: black;
+}
+.cart1_coupon .coupon_update button{
+  padding: .5rem 1rem;
+  font-size: .7rem;
+  font-weight: 900;
+  background-color: inherit;
+  color: lightgrey;
+  border: 2px solid grey;
+}
+.section4_cart img{
+  width: 20rem;
+}
+.section4_cart h3{
+  color: grey;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.section4_cart span button{
+  padding: 1rem 1rem;
+  font-size: .7rem;
+  font-weight: 900;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+.section4_cart span button:hover{
+  background-color: inherit;
+  color: black;
+}
+.section5_cart{
+  background-color: #f1f1f1;
+  width: calc(800px - 200px);
+  margin: auto;
+  padding: 3rem 2rem;
+  padding-top: 3rem;
+}
+.section5_subtotal{
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.section5_total{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+}
+.section5_btn{
+  display: flex;
+  justify-content: flex-end;
+}
+.section5_btn button:nth-child(1){
+  padding: 1rem 1rem;
+  font-size: .7rem;
+  font-weight: 900;
+  background-color: initial;
+  color: black;
+  border: 2px solid black;
+  margin-right: 1rem;
+}
+.section5_btn button:nth-child(1):hover{
+  background-color: black;
+  color: white;
+}
+.section5_btn button:nth-child(2){
+  padding: 1rem 1rem;
+  font-size: .7rem;
+  font-weight: 900;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  margin-right: 1rem;
+}
+.section5_btn button:nth-child(2):hover{
+  background-color: inherit;
+  color: black;
+}
+.section3_cart2 h4{
+  color: grey;
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 3;
+}
+.section3_cart2 p{
+  color: grey;
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.section3_cart2 a{
+  color: grey;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+
+/* Cart Page ends */
