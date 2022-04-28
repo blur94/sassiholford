@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-::root {
+:root {
   font-size: 16px;
 }
 body {
@@ -879,15 +879,125 @@ a {
 }
 .section3_cart2 p{
   color: grey;
-  font-size: .9rem;
-  font-weight: 500;
+  font-size: .7rem;
+  font-weight: 200;
   line-height: 1.5;
 }
 .section3_cart2 a{
   color: grey;
-  font-size: .9rem;
-  font-weight: 700;
+  font-size: .7rem;
+  font-weight: 500;
 }
 
-
 /* Cart Page ends */
+
+/* create account page begins */
+
+.section2_reg{
+  width: 60%;
+  padding: 5rem;
+  text-align: right;
+  margin: 0 auto;
+}
+.section2_login{
+  padding: 5rem;
+  width: 60%;
+  margin: 0 auto;
+}
+.section3_reg{
+  display: grid;
+  width: 60%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 0 auto;
+  gap: 100px;
+}
+.section3_login{
+  display: grid;
+  width: 60%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 0 auto;
+  gap: 100px;
+}
+.section3_reg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section3_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section3_regform input{
+  border: none;
+  width: 100%;
+  font-size: .6rem;
+  font-weight: 700;
+  padding: 0.7rem .5rem .7rem .7rem;
+  border-bottom: 2px solid black;
+}
+.section3_logform input[type=email], .section3_logform input[type=password]{
+  border: none;
+  width: 100%;
+  font-size: .6rem;
+  font-weight: 700;
+  padding: 0.7rem .5rem .7rem .7rem;
+  border-bottom: 2px solid black;
+}
+.section3_regform p{
+  font-size: .7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.section3_logform form a{
+  font-size: 1rem;
+  margin: 0 auto;
+  display: block;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.section3_register{
+  display: flex;
+  justify-content: space-between;
+}
+.section3_log{
+  display: flex;
+  justify-content: space-between;
+}
+.section3_register button{
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  /* transition: all ease-in 300ms; */
+}
+.section3_log button{
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  font-size: .7rem;
+  border: 2px solid black;
+  /* transition: all ease-in 300ms; */
+}
+.section3_register button:hover{
+  background-color: inherit;
+  color: black;
+  transition: all ease-in 300ms;
+}
+.section3_log button:hover{
+  background-color: inherit;
+  color: black;
+  transition: all ease-in 300ms;
+}
+.section3_register a{
+  /* justify-items: center; */
+  /* display: block; */
+  margin: auto 0;
+}
+.section3_log label{
+  display: block;
+  margin: auto 0;
+}
+
+/* create account page ends */
