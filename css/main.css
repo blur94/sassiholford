@@ -569,6 +569,18 @@ a {
   height: 100%;
   object-fit: cover;
 }
+.cat_img img title{
+  text-transform: lowercase;
+}
+.cat_img12{
+  display: none;
+}
+.cat_img11:hover {
+  display: none;
+}
+.cat_img11:hover ~ .cat_img12{
+  display: block;
+}
 
 /* section 4 - shop ends */
 
