@@ -10,6 +10,7 @@ let fName = $('#name'),
   updateUserForm = $("#updateUserForm"),
   userIndex,
   users = [],
+  admin = ["gileado@icloud.com", "balmify@gmail.com"],
   globalIpAddress = "http://159.65.21.42:9000";
 
 
@@ -94,7 +95,12 @@ logUserBtn.on('click', function () {
           alert(`Login Failed, ${response.error}`);
         } else {
           alert(`Login successful, welcome ${response.name}`);
-          window.location.href = 'cart.html';
+        
+            if (response.email == "gileado@icloud.com" || response.email == "balmify@gmail.com") {
+              window.location.href = '../sassiholford_admin/index.html'
+            } else {
+              window.location.href = 'cart.html';
+            }
         }
       },
       error: function (err) {
