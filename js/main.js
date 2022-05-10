@@ -255,3 +255,6 @@ navyBtn.on('click', function () {
     greenTropez.hide()
     navyTropez.show()
 })
+$('.gotoShop').on('click', function () {
+    window.location.href = 'shop.html'
+})
